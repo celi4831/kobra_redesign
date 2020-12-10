@@ -1,0 +1,61 @@
+#videoBG {
+    position: fixed;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+
+    body {
+        background: url ('poster.jpg');
+        background-size: cover;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+#forside {
+    background-color: #EBE8E0;
+}
+
+
+.popular {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 50px;
+
+
+}
+
+.col .top {
+    max-width: 100px;
+
+}
+
+.col .bottom {
+    background-color: #EBE8E0;
+
+}
