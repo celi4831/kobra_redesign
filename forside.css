@@ -28,6 +28,38 @@
     }
 }*/
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    background-color: white;
+}
+
+.burgermenu {
+    width: 2vw;
+    height: 2vw;
+}
+
+#forside {
+    background-color: #EBE8E0;
+}
+
+.splash,
+.populare,
+.history,
+.nyhedsbrev {
+    background-color: white;
+}
+
+.populare,
+.history,
+.nyhedsbrev {
+    margin: 50px;
+
+}
 
 #videoBG {
     position: relative;
@@ -43,20 +75,27 @@
     left: 20%;
 }
 
-a {
+nav a {
     color: white;
+    text-shadow: 2px 2px 10px rgba(150, 150, 150, 1);
     font-size: 1.5rem;
     font-weight: 1000;
     text-decoration: none;
     padding: 20px;
+}
 
+nav a:hover {
+    color: #000000;
+    transition: 0.5s;
 }
 
 .splash {
     margin-top: 20px;
 }
 
-
+.populartext {
+    text-align: center;
+}
 
 .center {
     display: block;
@@ -65,9 +104,6 @@ a {
     max-width: 300px;
 }
 
-#forside {
-    background-color: #EBE8E0;
-}
 
 
 .popular {
@@ -80,12 +116,45 @@ a {
 
 }
 
+.col {
+    position: relative;
+
+}
+
 .col .top {
-    max-width: 100px;
+    z-index: 2;
 
 }
 
 .col .bottom {
+    position: absolute;
+    overflow: hidden;
     background-color: #EBE8E0;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 
+}
+
+.history {
+    text-align: center;
+}
+
+.nyhedsbrev {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #EBE8E0;
+    width: 100;
+}
+
+.kundeservice,
+.guides,
+.inspiration {
+    display: inline-block;
+    margin: 20px;
 }
