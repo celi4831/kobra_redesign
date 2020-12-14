@@ -1,0 +1,160 @@
+/*#videoBG {
+    position: fixed;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+
+    body {
+        background: url ('poster.jpg');
+        background-size: cover;
+    }
+}*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    background-color: white;
+}
+
+.burgermenu {
+    width: 2vw;
+    height: 2vw;
+}
+
+#forside {
+    background-color: #EBE8E0;
+}
+
+.splash,
+.populare,
+.history,
+.nyhedsbrev {
+    background-color: white;
+}
+
+.populare,
+.history,
+.nyhedsbrev {
+    margin: 50px;
+
+}
+
+#videoBG {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    left: 20%;
+}
+
+nav a {
+    color: white;
+    text-shadow: 2px 2px 10px rgba(150, 150, 150, 1);
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+
+.splash {
+    margin-top: 20px;
+}
+
+.populartext {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+
+
+.popular {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 50px;
+
+
+}
+
+.col {
+    position: relative;
+
+}
+
+.col .top {
+    z-index: 2;
+
+}
+
+.col .bottom {
+    position: absolute;
+    overflow: hidden;
+    background-color: #EBE8E0;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.history {
+    text-align: center;
+}
+
+.nyhedsbrev {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #EBE8E0;
+    width: 100;
+}
+
+.kundeservice,
+.guides,
+.inspiration {
+    display: inline-block;
+    margin: 20px;
+}
