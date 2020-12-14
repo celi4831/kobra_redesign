@@ -5,6 +5,13 @@
     height: 0;
 }
 
+nav {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
