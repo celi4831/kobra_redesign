@@ -1,0 +1,16 @@
+#my_header {
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    height: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+body {
+    background-color: #EBE8E0;
+}
