@@ -1,3 +1,4 @@
+/*
 #my_header {
     text-align: center;
     padding: 0px;
@@ -11,6 +12,7 @@ nav {
     padding: 20px;
     text-align: center;
 }
+*/
 
 img {
     width: 100%;
@@ -20,4 +22,20 @@ img {
 
 body {
     background-color: #EBE8E0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
