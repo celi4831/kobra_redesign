@@ -1,6 +1,105 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.burgermenu {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 30px;
+    max-width: 40px;
+    margin-left: 10px;
+}
+
+.searchicon {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 30px;
+    max-width: 40px;
+}
+
+.headerlogo {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.hearticon {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin-top: 30px;
+    max-width: 40px;
+
+}
+
+.shoppingicon {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    margin-top: 30px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    position: absolute;
+    font-size: 4vw;
+    top: -0.9vw;
+    right: 30vw;
+    font-family: 'Playfair Display', serif;
+}
+
+sixth_section h2 {
+    position: absolute;
+    font-size: 3.5vw;
+    top: 20.1vw;
+    right: 27vw;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+#header {
+    position: absolute;
+    font-size: 2vw;
+    top: 7.1vw;
+    right: 22vw;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6vw;
+}
+
+
 footer {
     display: flex;
     justify-content: center;
     background-color: #EBE8E0;
     width: 100;
+}
+
+.kundeservice,
+.guides,
+.inspiration {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.inspiration img {
+    height: auto;
+    max-width: 100%;
 }
