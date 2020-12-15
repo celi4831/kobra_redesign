@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -57,4 +57,11 @@ h3 {
 
 p {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #EBE8E0;
+    width: 100;
 }
