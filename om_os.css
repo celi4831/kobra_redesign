@@ -38,6 +38,11 @@ img {
     height: auto;
 }
 
+.splash_img {
+    width: 1920px;
+    object-fit: cover;
+}
+
 body {
     background-color: #EBE8E0;
 }
@@ -53,6 +58,10 @@ body {
     width: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.col1 {
+    padding-bottom: 30px;
 }
 
 
