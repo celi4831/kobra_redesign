@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     background-color: white;
@@ -42,21 +46,38 @@ body {
     background-color: white;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 h2 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 h3 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 p {
+    font-family: 'Lato', sans-serif;
     text-align: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
