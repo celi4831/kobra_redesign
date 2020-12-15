@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    background-color: white;
+}
+
+.burgermenu {
+    width: 2vw;
+    height: 2vw;
+}
+
+.nav {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    left: 20%;
+}
+
+nav a {
+    color: white;
+    text-shadow: 2px 2px 10px rgba(150, 150, 150, 1);
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #EBE8E0;
+}
+
+.section_wrapper {
+    background-color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
