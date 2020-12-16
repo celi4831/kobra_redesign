@@ -172,3 +172,17 @@ nav a:hover {
     color: #b2a7a5;
     transition: 0.5s;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.headcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
