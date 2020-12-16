@@ -104,6 +104,10 @@ header {
     z-index: 1;
 }
 
+#pilotvideo {
+    margin-bottom: 40px;
+}
+
 .nav {
     position: absolute;
     z-index: 2;
