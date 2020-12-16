@@ -294,12 +294,19 @@ button {
         margin-top: 30px;
     }
 
+    nav {
+        position: absolute;
+        z-index: 2;
+        margin-top: 10px;
+        left: 0%;
+    }
+
     nav a {
         color: white;
         font-size: 0.8rem;
         font-weight: 1000;
         text-decoration: none;
-        padding: 20px;
+        margin: 20px;
     }
 
     img {
