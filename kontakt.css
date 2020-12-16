@@ -187,3 +187,72 @@ nav a:hover {
     margin-right: auto;
     max-width: 300px;
 }
+
+@media (max-width: 420px) {
+
+
+    header img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .headerlogo {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    nav a {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 1000;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #sixth_section {
+        width: 100%;
+    }
+
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .col1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer {
+        width: 385px;
+        font-size: 0.6rem;
+    }
+
+    .inspiration {
+        display: inline-block;
+        background-color: #EBE8E0;
+        margin: 0;
+    }
+
+    .guides {
+        display: inline-block;
+        margin: 0px;
+    }
+
+    .guides p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .kundeservice {
+        display: inline-block;
+        margin-left: 0px;
+        margin: 0;
+    }
+}
