@@ -122,8 +122,9 @@ section {
 
 .col5 {
     background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 20px;
 }
 
 
