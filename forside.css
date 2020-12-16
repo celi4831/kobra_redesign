@@ -108,7 +108,7 @@ header {
     margin-bottom: 40px;
 }
 
-.nav {
+nav {
     position: absolute;
     z-index: 2;
     margin-top: 10px;
@@ -131,6 +131,12 @@ nav a:hover {
 .splash {
     background-color: #EBE8E0;
     margin-top: 20px;
+}
+
+div sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .populartext {
@@ -276,4 +282,65 @@ button {
     background-color: #EBE8E0;
     border-radius: 5px;
     padding: 6px 20px;
+}
+
+@media (max-width: 420px) {
+
+    header img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .headerlogo {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    nav a {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 1000;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .popular {
+        margin-top: 60px;
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 50px;
+        width: auto;
+        background-color: #EBE8E0;
+    }
+
+    #pilotvideo,
+    #videocontrols,
+    #play-pause {
+        max-width: 100%;
+    }
+
+    #play-pause {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    #mute {
+        margin-bottom: 20px;
+    }
+
+    .nyhedsbrev {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        width: 300px;
+        font-size: 0.6rem;
+        margin-left: 50px;
+    }
+
 }
