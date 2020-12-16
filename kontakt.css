@@ -2,6 +2,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .burgermenu {
@@ -66,7 +67,7 @@ sixth_section h2 {
     font-family: 'Playfair Display', serif;
 }
 
-body {
+main {
     background-color: #EBE8E0;
 
 }
