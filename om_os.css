@@ -80,9 +80,31 @@ body {
 
 }
 
-.col5 {
-    background-color: white;
-    padding: 6vw;
+section {
+    margin: 0 auto;
+}
+
+#first_section {
+    width: 100%;
+    background-image: url(img_om/splash3.jpg);
+    background-size: cover;
+    background-position: 15% 10%;
+}
+
+#first_section h1 {
+    font-size: 2rem;
+    color: white;
+
+}
+
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#first_section h1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .center {
@@ -96,6 +118,11 @@ body {
 
 .col1 {
     padding-bottom: 30px;
+}
+
+.col5 {
+    background-color: white;
+    padding: 6vw;
 }
 
 
