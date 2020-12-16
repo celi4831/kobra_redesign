@@ -94,7 +94,8 @@ nav a:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-left: 150px;
     width: auto;
-    background-color: #EBE8E0;
+    /*background-color: #EBE8E0;*/
+    background-color: white;
 }
 
 .col1 {
