@@ -8,7 +8,7 @@ img {
 }
 
 #allesmykker {
-    margin-top: 2vw;
+    margin-top: 20px;
 }
 
 header {
@@ -124,8 +124,7 @@ section {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-left: 150px;
     width: auto;
-    /*background-color: #EBE8E0;*/
-    background-color: white;
+    background-color: #EBE8E0;
 }
 
 .col1 {
@@ -239,4 +238,11 @@ footer {
 .inspiration {
     display: inline-block;
     margin: 20px;
+}
+
+.headcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
 }
