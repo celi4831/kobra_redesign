@@ -74,7 +74,7 @@ header {
 nav a {
     color: white;
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: 900;
     text-decoration: none;
     padding: 20px;
 }
@@ -229,7 +229,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #EBE8E0;
-    width: 100;
+    width: 100%;
     margin-top: 5vw;
 }
 
@@ -269,7 +269,7 @@ footer {
     nav a {
         color: white;
         font-size: 0.8rem;
-        font-weight: 1000;
+        font-weight: 900;
         text-decoration: none;
         margin: 0px;
     }
@@ -299,3 +299,4 @@ footer {
         margin-left: 20px;
         margin-right: 0;
     }
+}
