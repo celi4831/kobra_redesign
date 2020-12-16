@@ -74,13 +74,17 @@ sixth_section h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.3vw;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
-h4 {
+p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.6vw;
+    text-align: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
