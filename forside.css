@@ -260,3 +260,13 @@ footer {
     display: inline-block;
     margin: 20px;
 }
+
+#videocontrols {
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #EBE8E0;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
