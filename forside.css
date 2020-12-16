@@ -28,6 +28,10 @@
     }
 }*/
 
+main {
+    background-color: #EBE8E0
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -100,6 +104,10 @@ header {
     z-index: 1;
 }
 
+#pilotvideo {
+    margin-bottom: 40px;
+}
+
 .nav {
     position: absolute;
     z-index: 2;
@@ -141,13 +149,11 @@ nav a:hover {
 
 .popular {
     margin-top: 60px;
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 60px;
     width: auto;
     background-color: #EBE8E0;
-
 }
 
 /*POPULAR COLS*/
@@ -157,7 +163,6 @@ nav a:hover {
     grid-row: 1/2;
     background-color: #EBE8E0;
     width: 300px;
-
 }
 
 .col2 {
@@ -227,6 +232,7 @@ nav a:hover {
 }
 
 .history {
+    background-color: #CDC1BF;
     margin-top: 120px;
     text-align: center;
 }
@@ -237,6 +243,8 @@ nav a:hover {
 
 .nyhedsbrev {
     text-align: center;
+    padding: 3vw;
+    font-size: 1.5rem;
 }
 
 footer {

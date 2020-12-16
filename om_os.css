@@ -1,15 +1,47 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: white;
 }
 
 .burgermenu {
-    width: 2vw;
-    height: 2vw;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 30px;
+    max-width: 40px;
+    margin-left: 10px;
+}
+
+.searchicon {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 30px;
+    max-width: 40px;
+}
+
+.headerlogo {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.hearticon {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin-top: 30px;
+    max-width: 40px;
+
+}
+
+.shoppingicon {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    margin-top: 30px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .nav {
