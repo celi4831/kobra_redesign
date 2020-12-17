@@ -54,7 +54,7 @@ header {
 nav a {
     color: white;
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: 900;
     text-decoration: none;
     padding: 20px;
 }
@@ -155,7 +155,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #EBE8E0;
-    width: 100;
+    width: 100%;
 }
 
 .headcenter {
@@ -167,4 +167,49 @@ footer {
 
 #forside {
     margin-top: 20px;
+}
+
+@media (max-width: 420px) {
+
+
+    header img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .headerlogo {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    nav a {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 900;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .col5 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 0.6rem;
+        margin-left: -4px;
+    }
 }
